@@ -1,0 +1,14 @@
+{  
+    "server": "dating-server2021.database.windows.net", 
+    "authentication": {
+        "type": "default",
+        "options": {
+            "userName": "Markus", 
+            "password": "Copenhagen2020" 
+        }
+    },
+    "options": {
+        "encrypt": true,
+        "database": "dating"
+    }
+} 

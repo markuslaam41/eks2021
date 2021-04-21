@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<style>
+  body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: #444;
+    line-height: 1.9;
+    background-color: #f3f3f3;
+  }
+  /* NAVIGATION */
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 9rem;
+    width: 100%;
+    padding: 0 6rem;
+    z-index: 100;
+    position: fixed;
+    background-color: bisque;
+  }
+  
+  
+  
+  .nav__links {
+    display: flex;
+    align-items: center;
+    list-style: none;
+  }
+  
+  .nav__item {
+    margin-left: 4rem;
+  }
+  
+  .nav__link:link,
+  .nav__link:visited {
+    font-size: 1.7rem;
+    font-weight: 400;
+    color: inherit;
+    text-decoration: none;
+    display: block;
+    transition: all 0.3s;
+  }
+  
+ .nav__link a:hover{
+     background-color:  #f3f3f3;
+ }
+  
+  
+  /* HEADER */
+  .header {
+    padding: 0 3rem;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .header__title {
+    flex: 1;
+  
+    max-width: 115rem;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    row-gap: 3rem;
+    align-content: center;
+    justify-content: center;
+  
+    align-items: start;
+    justify-items: start;
+  }
+  
+  h1 {
+    font-size: 5.5rem;
+    line-height: 1.35;
+  }
+  
+  h4 {
+    font-size: 2.4rem;
+    font-weight: 500;
+  }
+  
+  .highlight {
+    position: relative;
+  }
+  
+  .highlight::after {
+    display: block;
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+    transform: scale(1.07, 1.05) skewX(-15deg);
+    background-image: var(--gradient-primary);
+  }
+
+  
+ .boarder_login{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 40%;
+  margin: auto;
+  border: black 1px;
+      
+       
+ }
+.boarder_signup{
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 40%;
+  margin: auto;
+    
+        
+}
+
+.account__{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 40%;
+  margin: auto;
+  
+}
+.headerTitle {
+  font-size: 30px;
+  font-weight: 400;
+  text-align: center;
+  padding-top: 120px;
+
+}
+
+
+
+
+
+
+
+.registerUser{
+  text-align: center;
+  float: left;
+  margin: 0% 0% 0% 10%;
+  
+
+  
+ 
+  
+ 
+  
+  
+  
+}
+
+.loginUser {
+  text-align: center;
+  margin: 0% 0% 0% 50%;
+  
+  color: black;
+  
+  
+}
+</style>
+<body>
+    <header class="header">
+        <nav class="nav">
+          
+          <ul class="nav__links">
+            <li class="nav__item">
+              <a class="nav__link" href="index.html">Home</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="about_us.html">What is Finder</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="help.html">Help</a>
+            </li>
+           
+              <li class="nav__item">
+                <a class="nav__link" href="signup_login.html">Sign up</a>
+              </li>
+              
+            
+          </ul>
+        </nav>
+  
+        <div class="header__title">
+         
+          <h1>
+            <br>
+            
+            Welcome to Finder
+            the newest<br />
+            dating app
+          </h1>
+          
+          <h4>
+            <br>
+            <br>
+            The love of your life is just one click away</h4>
+            
+           
+          
+        </div>
+      </header>
+      
+
+
+</body>
+
+<script src="../JS/script.js"></script>
+</html>
